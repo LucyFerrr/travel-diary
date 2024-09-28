@@ -1,0 +1,237 @@
+/***********************/
+/* BELOW 1200px (Tablets (Landscape)) */
+/* CALCULATION: 1200 / 16 = 75em*/
+/***********************/
+@media (max-width: 75em) {
+  .sidebar {
+    margin: 0.5rem;
+    padding: 2rem 4rem 3rem 4rem;
+  }
+
+  .logo {
+    font-size: 3.5rem;
+  }
+
+  .travel__logo {
+    font-size: 3rem;
+  }
+
+  .infobar {
+    padding: 1.5rem 3rem 2.5rem 3rem;
+  }
+
+  .info__header {
+    margin-bottom: 0.5rem;
+  }
+
+  .info__box--header {
+    font-size: 1.4rem;
+  }
+
+  .info__title {
+    font-size: 1.2rem;
+  }
+
+  .info__date,
+  .info__type,
+  .info__description,
+  .info__location,
+  .info__budget {
+    font-size: 1.1rem;
+  }
+
+  .info__description--container {
+    height: 30px;
+    margin-bottom: 1rem;
+  }
+}
+
+/***********************/
+/* BELOW 1024px (Laptop) */
+/* CALCULATION: 1024 / 16 = 64em*/
+/***********************/
+@media (max-width: 64em) {
+  .sidebar {
+    padding: 1.5rem 3rem 2.5rem 3rem;
+  }
+
+  .travel__title {
+    font-size: 1.5rem;
+  }
+
+  .travel__sub--title {
+    font-size: 1.2rem;
+  }
+
+  .travel__icons {
+    font-size: 2rem;
+  }
+
+  .logo {
+    margin-bottom: 1.5rem;
+  }
+
+  .infobar {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+
+  .form {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .form__input--description {
+    height: 6rem !important;
+  }
+
+  .form__input {
+    height: 3rem;
+  }
+
+  .form__btn,
+  .btn--save {
+    width: 15rem;
+    height: 2.5rem;
+  }
+}
+
+/***********************/
+/* BELOW 768px (Tablets (Landscape)) */
+/* CALCULATION: 768 / 16 = 48em*/
+/***********************/
+@media (max-width: 48em) {
+  .sidebar {
+    padding: 1rem 2rem 1.5rem 2rem;
+  }
+
+  .logo {
+    font-size: 2.5rem;
+  }
+
+  .travel {
+    padding: 1rem 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .travel__logo {
+    font-size: 2.5rem;
+  }
+
+  .travel__title {
+    font-size: 1.3rem;
+  }
+
+  .travel__sub--title {
+    font-size: 1.1rem;
+  }
+
+  .travel__buttons {
+    gap: 0.5rem;
+  }
+
+  .infobar {
+    padding: 1rem;
+  }
+
+  .info__box--header {
+    font-size: 1.2rem;
+  }
+
+  .info__icon {
+    font-size: 1.5rem;
+  }
+
+  .info__title,
+  .info__date,
+  .info__type,
+  .info__location,
+  .info__budget {
+    font-size: 1rem;
+  }
+
+  .info__description {
+    font-size: 0.9rem;
+  }
+
+  .form {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    gap: 0.5rem 1rem;
+  }
+
+  .first__row {
+    gap: 1rem;
+  }
+
+  .form__row {
+    width: 100%;
+  }
+
+  #datepicker-range-start,
+  #datepicker-range-end {
+    height: 3rem;
+  }
+
+  .form__input--description {
+    height: 4rem !important;
+  }
+}
+
+/***********************/
+/* BELOW 425px (Mobile (Large)) */
+/* CALCULATION: 425 / 16 = 27em*/
+/***********************/
+@media (max-width: 27em) {
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 80% 40% 70% 65%;
+    grid-template-areas: none;
+    overscroll-behavior-y: auto;
+    overflow: scroll;
+  }
+
+  .sidebar,
+  .infobar,
+  #map,
+  .travelbar {
+    margin: 1rem;
+  }
+
+  .infobar {
+    padding: 1rem 3rem 2rem 3rem;
+  }
+
+  .info__title {
+    font-size: 1.5rem;
+  }
+
+  .info__description,
+  .info__date,
+  .info__type,
+  .info__location,
+  .info__budget {
+    font-size: 1.2rem;
+  }
+
+  .info__box--header {
+    font-size: 2rem;
+  }
+
+  .info__description--container {
+    height: 50px;
+  }
+
+  .first__row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .form__input--description {
+    height: 6rem !important;
+    margin-bottom: 1rem;
+  }
+
+  .submit__btns {
+    justify-content: center;
+  }
+}
